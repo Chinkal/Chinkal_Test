@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADCF05EE246550A4000BB134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05ED246550A4000BB134 /* AppDelegate.swift */; };
+		ADCF05F0246550A4000BB134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05EF246550A4000BB134 /* SceneDelegate.swift */; };
+		ADCF05F2246550A4000BB134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05F1246550A4000BB134 /* ViewController.swift */; };
+		ADCF05F5246550A4000BB134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05F3246550A4000BB134 /* Main.storyboard */; };
+		ADCF05F8246550A4000BB134 /* Chinkal_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */; };
+		ADCF05FA246550A7000BB134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05F9246550A7000BB134 /* Assets.xcassets */; };
+		ADCF05FD246550A7000BB134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05FB246550A7000BB134 /* LaunchScreen.storyboard */; };
+		ADCF0608246550A7000BB134 /* Chinkal_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF0607246550A7000BB134 /* Chinkal_TestTests.swift */; };
+		ADCF0613246550A7000BB134 /* Chinkal_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF0612246550A7000BB134 /* Chinkal_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADCF0604246550A7000BB134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF05E2246550A4000BB134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF05E9246550A4000BB134;
+			remoteInfo = Chinkal_Test;
+		};
+		ADCF060F246550A7000BB134 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADCF05E2246550A4000BB134 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADCF05E9246550A4000BB134;
+			remoteInfo = Chinkal_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADCF05EA246550A4000BB134 /* Chinkal_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chinkal_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF05ED246550A4000BB134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADCF05EF246550A4000BB134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ADCF05F1246550A4000BB134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADCF05F4246550A4000BB134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chinkal_Test.xcdatamodel; sourceTree = "<group>"; };
+		ADCF05F9246550A7000BB134 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADCF05FC246550A7000BB134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADCF05FE246550A7000BB134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCF0603246550A7000BB134 /* Chinkal_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chinkal_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF0607246550A7000BB134 /* Chinkal_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinkal_TestTests.swift; sourceTree = "<group>"; };
+		ADCF0609246550A7000BB134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCF060E246550A7000BB134 /* Chinkal_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chinkal_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCF0612246550A7000BB134 /* Chinkal_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinkal_TestUITests.swift; sourceTree = "<group>"; };
+		ADCF0614246550A7000BB134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCF05E7246550A4000BB134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF0600246550A7000BB134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF060B246550A7000BB134 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADCF05E1246550A4000BB134 = {
+			isa = PBXGroup;
+			children = (
+				ADCF05EC246550A4000BB134 /* Chinkal_Test */,
+				ADCF0606246550A7000BB134 /* Chinkal_TestTests */,
+				ADCF0611246550A7000BB134 /* Chinkal_TestUITests */,
+				ADCF05EB246550A4000BB134 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCF05EB246550A4000BB134 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF05EA246550A4000BB134 /* Chinkal_Test.app */,
+				ADCF0603246550A7000BB134 /* Chinkal_TestTests.xctest */,
+				ADCF060E246550A7000BB134 /* Chinkal_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCF05EC246550A4000BB134 /* Chinkal_Test */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF05ED246550A4000BB134 /* AppDelegate.swift */,
+				ADCF05EF246550A4000BB134 /* SceneDelegate.swift */,
+				ADCF05F1246550A4000BB134 /* ViewController.swift */,
+				ADCF05F3246550A4000BB134 /* Main.storyboard */,
+				ADCF05F9246550A7000BB134 /* Assets.xcassets */,
+				ADCF05FB246550A7000BB134 /* LaunchScreen.storyboard */,
+				ADCF05FE246550A7000BB134 /* Info.plist */,
+				ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */,
+			);
+			path = Chinkal_Test;
+			sourceTree = "<group>";
+		};
+		ADCF0606246550A7000BB134 /* Chinkal_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF0607246550A7000BB134 /* Chinkal_TestTests.swift */,
+				ADCF0609246550A7000BB134 /* Info.plist */,
+			);
+			path = Chinkal_TestTests;
+			sourceTree = "<group>";
+		};
+		ADCF0611246550A7000BB134 /* Chinkal_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF0612246550A7000BB134 /* Chinkal_TestUITests.swift */,
+				ADCF0614246550A7000BB134 /* Info.plist */,
+			);
+			path = Chinkal_TestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCF05E9246550A4000BB134 /* Chinkal_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF0617246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_Test" */;
+			buildPhases = (
+				ADCF05E6246550A4000BB134 /* Sources */,
+				ADCF05E7246550A4000BB134 /* Frameworks */,
+				ADCF05E8246550A4000BB134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chinkal_Test;
+			productName = Chinkal_Test;
+			productReference = ADCF05EA246550A4000BB134 /* Chinkal_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADCF0602246550A7000BB134 /* Chinkal_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF061A246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_TestTests" */;
+			buildPhases = (
+				ADCF05FF246550A7000BB134 /* Sources */,
+				ADCF0600246550A7000BB134 /* Frameworks */,
+				ADCF0601246550A7000BB134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF0605246550A7000BB134 /* PBXTargetDependency */,
+			);
+			name = Chinkal_TestTests;
+			productName = Chinkal_TestTests;
+			productReference = ADCF0603246550A7000BB134 /* Chinkal_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADCF060D246550A7000BB134 /* Chinkal_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCF061D246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_TestUITests" */;
+			buildPhases = (
+				ADCF060A246550A7000BB134 /* Sources */,
+				ADCF060B246550A7000BB134 /* Frameworks */,
+				ADCF060C246550A7000BB134 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADCF0610246550A7000BB134 /* PBXTargetDependency */,
+			);
+			name = Chinkal_TestUITests;
+			productName = Chinkal_TestUITests;
+			productReference = ADCF060E246550A7000BB134 /* Chinkal_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCF05E2246550A4000BB134 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = chinkalshah;
+				TargetAttributes = {
+					ADCF05E9246550A4000BB134 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					ADCF0602246550A7000BB134 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADCF05E9246550A4000BB134;
+					};
+					ADCF060D246550A7000BB134 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = ADCF05E9246550A4000BB134;
+					};
+				};
+			};
+			buildConfigurationList = ADCF05E5246550A4000BB134 /* Build configuration list for PBXProject "Chinkal_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADCF05E1246550A4000BB134;
+			productRefGroup = ADCF05EB246550A4000BB134 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCF05E9246550A4000BB134 /* Chinkal_Test */,
+				ADCF0602246550A7000BB134 /* Chinkal_TestTests */,
+				ADCF060D246550A7000BB134 /* Chinkal_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADCF05E8246550A4000BB134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF05FD246550A7000BB134 /* LaunchScreen.storyboard in Resources */,
+				ADCF05FA246550A7000BB134 /* Assets.xcassets in Resources */,
+				ADCF05F5246550A4000BB134 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF0601246550A7000BB134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF060C246550A7000BB134 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCF05E6246550A4000BB134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF05F2246550A4000BB134 /* ViewController.swift in Sources */,
+				ADCF05EE246550A4000BB134 /* AppDelegate.swift in Sources */,
+				ADCF05F8246550A4000BB134 /* Chinkal_Test.xcdatamodeld in Sources */,
+				ADCF05F0246550A4000BB134 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF05FF246550A7000BB134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF0608246550A7000BB134 /* Chinkal_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADCF060A246550A7000BB134 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCF0613246550A7000BB134 /* Chinkal_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADCF0605246550A7000BB134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF05E9246550A4000BB134 /* Chinkal_Test */;
+			targetProxy = ADCF0604246550A7000BB134 /* PBXContainerItemProxy */;
+		};
+		ADCF0610246550A7000BB134 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADCF05E9246550A4000BB134 /* Chinkal_Test */;
+			targetProxy = ADCF060F246550A7000BB134 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADCF05F3246550A4000BB134 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCF05F4246550A4000BB134 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADCF05FB246550A7000BB134 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADCF05FC246550A7000BB134 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADCF0615246550A7000BB134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADCF0616246550A7000BB134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADCF0618246550A7000BB134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADCF0619246550A7000BB134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADCF061B246550A7000BB134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinkal_Test.app/Chinkal_Test";
+			};
+			name = Debug;
+		};
+		ADCF061C246550A7000BB134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chinkal_Test.app/Chinkal_Test";
+			};
+			name = Release;
+		};
+		ADCF061E246550A7000BB134 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chinkal_Test;
+			};
+			name = Debug;
+		};
+		ADCF061F246550A7000BB134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chinkal_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.test.Chinkal-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chinkal_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCF05E5246550A4000BB134 /* Build configuration list for PBXProject "Chinkal_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF0615246550A7000BB134 /* Debug */,
+				ADCF0616246550A7000BB134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF0617246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF0618246550A7000BB134 /* Debug */,
+				ADCF0619246550A7000BB134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF061A246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF061B246550A7000BB134 /* Debug */,
+				ADCF061C246550A7000BB134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCF061D246550A7000BB134 /* Build configuration list for PBXNativeTarget "Chinkal_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCF061E246550A7000BB134 /* Debug */,
+				ADCF061F246550A7000BB134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */,
+			);
+			currentVersion = ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */;
+			path = Chinkal_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADCF05E2246550A4000BB134 /* Project object */;
+}

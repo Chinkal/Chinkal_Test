@@ -74,3 +74,16 @@ extension Double {
     }
 
 }
+
+extension UIViewController{
+    
+    func showNavbarItem() -> UIBarButtonItem{
+        let spinner = UIActivityIndicatorView(style: .medium)
+        spinner.color = .black
+        spinner.startAnimating()
+        
+        let barItem = UIBarButtonItem(customView: spinner)
+        return barItem
+    }
+    
+}

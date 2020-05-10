@@ -30,12 +30,16 @@ class ViewController: UIViewController , DataDownloadCompletionDelegate{
 
     //Custom functions
     func parseAPI() {
+        self.navigationItem.rightBarButtonItem = self.showNavbarItem()
         Apihandler.shared.downloadArticlesData(Apihandler.requestType.getArticlesData.rawValue, httpmethod: "GET", page: pageNumber, Delegate: self)
     }
     
     
     //MARK: - Network Delegate
     func dataDownloadCompleted(error: Error?, data: Data) {
+        DispatchQueue.main.async {
+            self.navigationItem.rightBarButtonItem = nil
+        }
         guard error == nil else {
             print(error!)
             return

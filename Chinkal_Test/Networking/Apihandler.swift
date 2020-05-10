@@ -11,7 +11,6 @@ import UIKit
 class Apihandler {
     
     static let shared = Apihandler()
-    var arrayofData = [Blog]()
     
     enum requestType: UInt {
         case getArticlesData
@@ -21,14 +20,6 @@ class Apihandler {
     func downloadArticlesData(_ requestType : UInt , httpmethod : String , page : Int , Delegate : DataDownloadCompletionDelegate)  {
         let stringToAppend = API.BaseURL + String(format: "page=%d&limit=%@", page,"10")
         URLSession.shared.dataTask(with: URL(string: stringToAppend)!) { (data, response, error) -> Void in
-            if let data = data {
-                do {
-                   let response = try JSONDecoder().decode([Blog].self, from: data)
-                   self.arrayofData = response
-                } catch let error {
-                   print(error)
-                }
-             }
             Delegate.dataDownloadCompleted(error: error, data: data!)
         }.resume()
     }

@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD2C834E2466D6890089AB0D /* Extension + Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2C834D2466D6890089AB0D /* Extension + Date.swift */; };
+		AD2C8350246704AB0089AB0D /* DataDownloadCompletionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2C834F246704AB0089AB0D /* DataDownloadCompletionDelegate.swift */; };
+		AD2C8352246705420089AB0D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2C8351246705420089AB0D /* Constant.swift */; };
 		ADCF05EE246550A4000BB134 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05ED246550A4000BB134 /* AppDelegate.swift */; };
-		ADCF05F0246550A4000BB134 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05EF246550A4000BB134 /* SceneDelegate.swift */; };
 		ADCF05F2246550A4000BB134 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05F1246550A4000BB134 /* ViewController.swift */; };
 		ADCF05F5246550A4000BB134 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05F3246550A4000BB134 /* Main.storyboard */; };
-		ADCF05F8246550A4000BB134 /* Chinkal_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */; };
+		ADCF05F8246550A4000BB134 /* Chinkal_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADCF05F6246550A4000BB134 /* Chinkal_test.xcdatamodeld */; };
 		ADCF05FA246550A7000BB134 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05F9246550A7000BB134 /* Assets.xcassets */; };
 		ADCF05FD246550A7000BB134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADCF05FB246550A7000BB134 /* LaunchScreen.storyboard */; };
 		ADCF0608246550A7000BB134 /* Chinkal_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF0607246550A7000BB134 /* Chinkal_TestTests.swift */; };
 		ADCF0613246550A7000BB134 /* Chinkal_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF0612246550A7000BB134 /* Chinkal_TestUITests.swift */; };
+		ADCF062924655462000BB134 /* Apihandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF062824655461000BB134 /* Apihandler.swift */; };
+		ADCF062B2465555A000BB134 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF062A2465555A000BB134 /* Blog.swift */; };
+		ADCF062D246555E5000BB134 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF062C246555E5000BB134 /* User.swift */; };
+		ADCF062F246555F0000BB134 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF062E246555F0000BB134 /* Media.swift */; };
+		ADCF063224655A80000BB134 /* Customcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF063124655A80000BB134 /* Customcell.swift */; };
+		ADCF063624656D44000BB134 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF063524656D44000BB134 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD2C834D2466D6890089AB0D /* Extension + Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + Date.swift"; sourceTree = "<group>"; };
+		AD2C834F246704AB0089AB0D /* DataDownloadCompletionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataDownloadCompletionDelegate.swift; sourceTree = "<group>"; };
+		AD2C8351246705420089AB0D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		ADCF05EA246550A4000BB134 /* Chinkal_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chinkal_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCF05ED246550A4000BB134 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADCF05EF246550A4000BB134 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ADCF05F1246550A4000BB134 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADCF05F4246550A4000BB134 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chinkal_Test.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		ADCF060E246550A7000BB134 /* Chinkal_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Chinkal_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCF0612246550A7000BB134 /* Chinkal_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinkal_TestUITests.swift; sourceTree = "<group>"; };
 		ADCF0614246550A7000BB134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADCF062824655461000BB134 /* Apihandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Apihandler.swift; sourceTree = "<group>"; };
+		ADCF062A2465555A000BB134 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
+		ADCF062C246555E5000BB134 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		ADCF062E246555F0000BB134 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		ADCF063124655A80000BB134 /* Customcell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customcell.swift; sourceTree = "<group>"; };
+		ADCF063524656D44000BB134 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD2C834C2466D66C0089AB0D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C834D2466D6890089AB0D /* Extension + Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD2C8354246793510089AB0D /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF05F1246550A4000BB134 /* ViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		ADCF05E1246550A4000BB134 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +133,17 @@
 		ADCF05EC246550A4000BB134 /* Chinkal_Test */ = {
 			isa = PBXGroup;
 			children = (
-				ADCF05ED246550A4000BB134 /* AppDelegate.swift */,
-				ADCF05EF246550A4000BB134 /* SceneDelegate.swift */,
-				ADCF05F1246550A4000BB134 /* ViewController.swift */,
-				ADCF05F3246550A4000BB134 /* Main.storyboard */,
-				ADCF05F9246550A7000BB134 /* Assets.xcassets */,
+				AD2C834C2466D66C0089AB0D /* Extensions */,
+				ADCF062624655246000BB134 /* ViewModel */,
+				ADCF062524655241000BB134 /* Model */,
+				ADCF06242465523A000BB134 /* Networking */,
+				ADCF062324655228000BB134 /* Nib */,
+				ADCF062224655217000BB134 /* Support */,
+				ADCF0621246550E1000BB134 /* Classes */,
+				ADCF0620246550D2000BB134 /* Delegate */,
 				ADCF05FB246550A7000BB134 /* LaunchScreen.storyboard */,
 				ADCF05FE246550A7000BB134 /* Info.plist */,
-				ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */,
+				ADCF05F6246550A4000BB134 /* Chinkal_test.xcdatamodeld */,
 			);
 			path = Chinkal_Test;
 			sourceTree = "<group>";
@@ -129,6 +164,75 @@
 				ADCF0614246550A7000BB134 /* Info.plist */,
 			);
 			path = Chinkal_TestUITests;
+			sourceTree = "<group>";
+		};
+		ADCF0620246550D2000BB134 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF05ED246550A4000BB134 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		ADCF0621246550E1000BB134 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C8354246793510089AB0D /* MainVC */,
+				ADCF063024655A6B000BB134 /* CustomCell */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ADCF062224655217000BB134 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C8351246705420089AB0D /* Constant.swift */,
+				ADCF05F9246550A7000BB134 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		ADCF062324655228000BB134 /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF05F3246550A4000BB134 /* Main.storyboard */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		ADCF06242465523A000BB134 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AD2C834F246704AB0089AB0D /* DataDownloadCompletionDelegate.swift */,
+				ADCF062824655461000BB134 /* Apihandler.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ADCF062524655241000BB134 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF062A2465555A000BB134 /* Blog.swift */,
+				ADCF062C246555E5000BB134 /* User.swift */,
+				ADCF062E246555F0000BB134 /* Media.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADCF062624655246000BB134 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF063524656D44000BB134 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ADCF063024655A6B000BB134 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADCF063124655A80000BB134 /* Customcell.swift */,
+			);
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +367,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADCF05F2246550A4000BB134 /* ViewController.swift in Sources */,
+				ADCF063624656D44000BB134 /* ViewModel.swift in Sources */,
+				AD2C834E2466D6890089AB0D /* Extension + Date.swift in Sources */,
 				ADCF05EE246550A4000BB134 /* AppDelegate.swift in Sources */,
-				ADCF05F8246550A4000BB134 /* Chinkal_Test.xcdatamodeld in Sources */,
-				ADCF05F0246550A4000BB134 /* SceneDelegate.swift in Sources */,
+				ADCF062F246555F0000BB134 /* Media.swift in Sources */,
+				ADCF062D246555E5000BB134 /* User.swift in Sources */,
+				ADCF062B2465555A000BB134 /* Blog.swift in Sources */,
+				AD2C8350246704AB0089AB0D /* DataDownloadCompletionDelegate.swift in Sources */,
+				ADCF05F8246550A4000BB134 /* Chinkal_test.xcdatamodeld in Sources */,
+				ADCF063224655A80000BB134 /* Customcell.swift in Sources */,
+				ADCF062924655462000BB134 /* Apihandler.swift in Sources */,
+				AD2C8352246705420089AB0D /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,13 +702,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		ADCF05F6246550A4000BB134 /* Chinkal_Test.xcdatamodeld */ = {
+		ADCF05F6246550A4000BB134 /* Chinkal_test.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */,
 			);
 			currentVersion = ADCF05F7246550A4000BB134 /* Chinkal_Test.xcdatamodel */;
-			path = Chinkal_Test.xcdatamodeld;
+			path = Chinkal_test.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

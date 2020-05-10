@@ -20,10 +20,21 @@ class Chinkal_TestTests: XCTestCase {
     }
 
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        if let url = URL(string: "https://5e99a9b1bc561b0016af3540.mockapi.io/jet2/api/v1/blogs?page=%201&limit=10") {
+           URLSession.shared.dataTask(with: url) { data, response, error in
+              if let data = data {
+                  do {
+                     let response = try JSONDecoder().decode([Blog].self, from: data)
+                     print(response)
+                  } catch _ {
+                     XCTFail("Fail")
+                  }
+               }
+           }.resume()
+        }
     }
 
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {
